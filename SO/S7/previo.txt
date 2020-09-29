@@ -1,0 +1,13 @@
+(1) Devuelve un 0.
+
+(2) $ ./es1 < previo.txt
+
+(3) El resultado son todos los archivos que contienen en su nombre el string "es". Grep busca en su input el string que le pasamos como parámetro, en este caso "es".
+
+(4) El comando es $ ps | grep pts/1
+
+(5) El primero escribe 4 bytes, el segundo 5. Primero aparece el corresponidente en ASCII del número que tenía guardado, y el segundo lo escribe para que lo podamos entender nosotros.
+
+(6) 
+	[a] La función int read_driver_x (struct file *f, char __user *buffer, size_t s, loff_t *off); (donde x = 1 o x = 2 en cada programa).
+	[b] Major es el numero del device driver. El minor es el identificador del dispositivo dentro del major. Utilizan los valors 0, 249 y 0, 250, respectivamente.

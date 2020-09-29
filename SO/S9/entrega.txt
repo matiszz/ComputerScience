@@ -1,0 +1,22 @@
+(68)	El comando $ ln $HOME/A $HOME/A/H, ha dado error ya que no
+	se puede crear un hard link de un directorio.
+	
+	Con el comando stat observamos que los inodos del hard link
+	con su  respectivo  original  son iguales, a diferencia que
+	los otros archivos.
+	
+	Tanto cat como more,  muestran  "estoy en el directorio A",
+	para todos los archivos,  y  mensaje de  directorio para E,
+	que es un SL a directorio. Con readlink, para los SL,  dice
+	a quien apuntan.
+	
+	'namei' resuelve todo el camino  de  F  y  de E para llegar
+	hasta donde está el original, al que está apuntando.
+	
+	$ cat: H: Too many levels of symbolic links. Es como si fu-
+	ese un bucle infinito de links, por eso  no  puede  enseñar
+	nada. Lo mismo pasa con namei.
+	
+(69)	Entregado.
+
+

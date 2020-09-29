@@ -1,0 +1,6 @@
+(53)	2n -> $ ./es1 > /dev/pts/1
+	3r -> $ ./es1 | ./es1
+La versión hecha con el buffer, efectivamente captura buffers, por lo tanto hace menos llamadas a sistema (5). El que captura chars, hace una llamada por cada carácter de la entrada (unas 1455 aprox).
+Se ve claramente que es más eficiente si solo hacemos 5 llamadas a sistema que si hacemos 14555, por lo tanto será más eficiente la que lee buffers.
+
+(54) La diferencia es que 0 imprime en ASCII (entendible para nosotros) y 1 en 

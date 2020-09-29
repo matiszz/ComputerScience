@@ -1,0 +1,422 @@
+Seed 1: 
+info: player Mati got score 47112
+info: player Dummy got score 51764
+info: player Dummy got score 59990
+info: player Dummy got score 53612
+info: player(s) Dummy got top score
+ 
+Seed 2: 
+info: player Mati got score 59005
+info: player Dummy got score 53826
+info: player Dummy got score 55736
+info: player Dummy got score 43478
+info: player(s) Mati got top score
+ 
+Seed 3: 
+info: player Mati got score 55815
+info: player Dummy got score 47389
+info: player Dummy got score 45574
+info: player Dummy got score 66626
+info: player(s) Dummy got top score
+ 
+Seed 4: 
+info: player Mati got score 57403
+info: player Dummy got score 54678
+info: player Dummy got score 57830
+info: player Dummy got score 44221
+info: player(s) Dummy got top score
+ 
+Seed 5: 
+info: player Mati got score 44544
+info: player Dummy got score 53421
+info: player Dummy got score 69030
+info: player Dummy got score 41761
+info: player(s) Dummy got top score
+ 
+Seed 6: 
+info: player Mati got score 44123
+info: player Dummy got score 46818
+info: player Dummy got score 65520
+info: player Dummy got score 55430
+info: player(s) Dummy got top score
+ 
+Seed 7: 
+info: player Mati got score 74948
+info: player Dummy got score 42317
+info: player Dummy got score 57763
+info: player Dummy got score 39874
+info: player(s) Mati got top score
+ 
+Seed 8: 
+info: player Mati got score 51996
+info: player Dummy got score 56320
+info: player Dummy got score 42324
+info: player Dummy got score 61062
+info: player(s) Dummy got top score
+ 
+Seed 9: 
+info: player Mati got score 47973
+info: player Dummy got score 56326
+info: player Dummy got score 52511
+info: player Dummy got score 54678
+info: player(s) Dummy got top score
+ 
+Seed 10: 
+info: player Mati got score 50340
+info: player Dummy got score 47462
+info: player Dummy got score 58683
+info: player Dummy got score 57304
+info: player(s) Dummy got top score
+ 
+Seed 11: 
+info: player Mati got score 44286
+info: player Dummy got score 45703
+info: player Dummy got score 66424
+info: player Dummy got score 54598
+info: player(s) Dummy got top score
+ 
+Seed 12: 
+info: player Mati got score 55610
+info: player Dummy got score 42351
+info: player Dummy got score 48726
+info: player Dummy got score 65110
+info: player(s) Dummy got top score
+ 
+Seed 13: 
+info: player Mati got score 52333
+info: player Dummy got score 42797
+info: player Dummy got score 63176
+info: player Dummy got score 53754
+info: player(s) Dummy got top score
+ 
+Seed 14: 
+info: player Mati got score 66696
+info: player Dummy got score 44256
+info: player Dummy got score 46735
+info: player Dummy got score 58167
+info: player(s) Mati got top score
+ 
+Seed 15: 
+info: player Mati got score 67329
+info: player Dummy got score 44406
+info: player Dummy got score 59337
+info: player Dummy got score 42092
+info: player(s) Mati got top score
+ 
+Seed 16: 
+info: player Mati got score 66917
+info: player Dummy got score 52638
+info: player Dummy got score 46651
+info: player Dummy got score 44615
+info: player(s) Mati got top score
+ 
+Seed 17: 
+info: player Mati got score 50156
+info: player Dummy got score 44132
+info: player Dummy got score 54614
+info: player Dummy got score 64751
+info: player(s) Dummy got top score
+ 
+Seed 18: 
+info: player Mati got score 58309
+info: player Dummy got score 50338
+info: player Dummy got score 59377
+info: player Dummy got score 45416
+info: player(s) Dummy got top score
+ 
+Seed 19: 
+info: player Mati got score 44152
+info: player Dummy got score 49177
+info: player Dummy got score 60930
+info: player Dummy got score 56974
+info: player(s) Dummy got top score
+ 
+Seed 20: 
+info: player Mati got score 57289
+info: player Dummy got score 55902
+info: player Dummy got score 49521
+info: player Dummy got score 49163
+info: player(s) Mati got top score
+ 
+Seed 21: 
+info: player Mati got score 71988
+info: player Dummy got score 48550
+info: player Dummy got score 44139
+info: player Dummy got score 47776
+info: player(s) Mati got top score
+ 
+Seed 22: 
+info: player Mati got score 46947
+info: player Dummy got score 50908
+info: player Dummy got score 55578
+info: player Dummy got score 57406
+info: player(s) Dummy got top score
+ 
+Seed 23: 
+info: player Mati got score 41314
+info: player Dummy got score 44333
+info: player Dummy got score 47265
+info: player Dummy got score 80348
+info: player(s) Dummy got top score
+ 
+Seed 24: 
+info: player Mati got score 53187
+info: player Dummy got score 38666
+info: player Dummy got score 63760
+info: player Dummy got score 58232
+info: player(s) Dummy got top score
+ 
+Seed 25: 
+info: player Mati got score 41082
+info: player Dummy got score 64969
+info: player Dummy got score 48291
+info: player Dummy got score 57691
+info: player(s) Dummy got top score
+ 
+Seed 26: 
+info: player Mati got score 50752
+info: player Dummy got score 50050
+info: player Dummy got score 59296
+info: player Dummy got score 52220
+info: player(s) Dummy got top score
+ 
+Seed 27: 
+info: player Mati got score 47037
+info: player Dummy got score 46018
+info: player Dummy got score 66956
+info: player Dummy got score 50638
+info: player(s) Dummy got top score
+ 
+Seed 28: 
+info: player Mati got score 45005
+info: player Dummy got score 62828
+info: player Dummy got score 57467
+info: player Dummy got score 49311
+info: player(s) Dummy got top score
+ 
+Seed 29: 
+info: player Mati got score 49507
+info: player Dummy got score 63444
+info: player Dummy got score 38550
+info: player Dummy got score 59849
+info: player(s) Dummy got top score
+ 
+Seed 30: 
+info: player Mati got score 61455
+info: player Dummy got score 39533
+info: player Dummy got score 53886
+info: player Dummy got score 57157
+info: player(s) Mati got top score
+ 
+Seed 31: 
+info: player Mati got score 41141
+info: player Dummy got score 47098
+info: player Dummy got score 62432
+info: player Dummy got score 61648
+info: player(s) Dummy got top score
+ 
+Seed 32: 
+info: player Mati got score 46516
+info: player Dummy got score 52112
+info: player Dummy got score 43962
+info: player Dummy got score 69014
+info: player(s) Dummy got top score
+ 
+Seed 33: 
+info: player Mati got score 47386
+info: player Dummy got score 48599
+info: player Dummy got score 72435
+info: player Dummy got score 44163
+info: player(s) Dummy got top score
+ 
+Seed 34: 
+info: player Mati got score 49487
+info: player Dummy got score 43007
+info: player Dummy got score 35526
+info: player Dummy got score 85137
+info: player(s) Dummy got top score
+ 
+Seed 35: 
+info: player Mati got score 52659
+info: player Dummy got score 47374
+info: player Dummy got score 64807
+info: player Dummy got score 46301
+info: player(s) Dummy got top score
+ 
+Seed 36: 
+info: player Mati got score 27603
+info: player Dummy got score 58649
+info: player Dummy got score 51393
+info: player Dummy got score 74657
+info: player(s) Dummy got top score
+ 
+Seed 37: 
+info: player Mati got score 38949
+info: player Dummy got score 42963
+info: player Dummy got score 71058
+info: player Dummy got score 59245
+info: player(s) Dummy got top score
+ 
+Seed 38: 
+info: player Mati got score 46162
+info: player Dummy got score 37562
+info: player Dummy got score 84225
+info: player Dummy got score 42616
+info: player(s) Dummy got top score
+ 
+Seed 39: 
+info: player Mati got score 63592
+info: player Dummy got score 45009
+info: player Dummy got score 41824
+info: player Dummy got score 63370
+info: player(s) Mati got top score
+ 
+Seed 40: 
+info: player Mati got score 47688
+info: player Dummy got score 47200
+info: player Dummy got score 54498
+info: player Dummy got score 64959
+info: player(s) Dummy got top score
+ 
+Seed 41: 
+info: player Mati got score 54205
+info: player Dummy got score 42924
+info: player Dummy got score 54097
+info: player Dummy got score 61882
+info: player(s) Dummy got top score
+ 
+Seed 42: 
+info: player Mati got score 46798
+info: player Dummy got score 63903
+info: player Dummy got score 43577
+info: player Dummy got score 60633
+info: player(s) Dummy got top score
+ 
+Seed 43: 
+info: player Mati got score 55384
+info: player Dummy got score 37575
+info: player Dummy got score 61983
+info: player Dummy got score 59126
+info: player(s) Dummy got top score
+ 
+Seed 44: 
+info: player Mati got score 52945
+info: player Dummy got score 49644
+info: player Dummy got score 44917
+info: player Dummy got score 63233
+info: player(s) Dummy got top score
+ 
+Seed 45: 
+info: player Mati got score 53042
+info: player Dummy got score 52448
+info: player Dummy got score 57828
+info: player Dummy got score 48679
+info: player(s) Dummy got top score
+ 
+Seed 46: 
+info: player Mati got score 41802
+info: player Dummy got score 44742
+info: player Dummy got score 57335
+info: player Dummy got score 69757
+info: player(s) Dummy got top score
+ 
+Seed 47: 
+info: player Mati got score 56716
+info: player Dummy got score 54302
+info: player Dummy got score 48746
+info: player Dummy got score 52669
+info: player(s) Mati got top score
+ 
+Seed 48: 
+info: player Mati got score 63091
+info: player Dummy got score 38182
+info: player Dummy got score 59882
+info: player Dummy got score 50598
+info: player(s) Mati got top score
+ 
+Seed 49: 
+info: player Mati got score 45513
+info: player Dummy got score 55533
+info: player Dummy got score 56066
+info: player Dummy got score 54510
+info: player(s) Dummy got top score
+ 
+Seed 50: 
+info: player Mati got score 76365
+info: player Dummy got score 39099
+info: player Dummy got score 49542
+info: player Dummy got score 47257
+info: player(s) Mati got top score
+ 
+Seed 51: 
+info: player Mati got score 58659
+info: player Dummy got score 43697
+info: player Dummy got score 72616
+info: player Dummy got score 36321
+info: player(s) Dummy got top score
+ 
+Seed 52: 
+info: player Mati got score 63438
+info: player Dummy got score 47924
+info: player Dummy got score 54753
+info: player Dummy got score 46727
+info: player(s) Mati got top score
+ 
+Seed 53: 
+info: player Mati got score 51175
+info: player Dummy got score 52878
+info: player Dummy got score 58925
+info: player Dummy got score 50824
+info: player(s) Dummy got top score
+ 
+Seed 54: 
+info: player Mati got score 52450
+info: player Dummy got score 50367
+info: player Dummy got score 64157
+info: player Dummy got score 45577
+info: player(s) Dummy got top score
+ 
+Seed 55: 
+info: player Mati got score 63293
+info: player Dummy got score 62544
+info: player Dummy got score 41183
+info: player Dummy got score 44900
+info: player(s) Mati got top score
+ 
+Seed 56: 
+info: player Mati got score 58459
+info: player Dummy got score 39120
+info: player Dummy got score 61960
+info: player Dummy got score 51562
+info: player(s) Dummy got top score
+ 
+Seed 57: 
+info: player Mati got score 64573
+info: player Dummy got score 49513
+info: player Dummy got score 50216
+info: player Dummy got score 47525
+info: player(s) Mati got top score
+ 
+Seed 58: 
+info: player Mati got score 49850
+info: player Dummy got score 51943
+info: player Dummy got score 44961
+info: player Dummy got score 65257
+info: player(s) Dummy got top score
+ 
+Seed 59: 
+info: player Mati got score 51069
+info: player Dummy got score 42220
+info: player Dummy got score 48375
+info: player Dummy got score 71097
+info: player(s) Dummy got top score
+ 
+Seed 60: 
+info: player Mati got score 62656
+info: player Dummy got score 48024
+info: player Dummy got score 40322
+info: player Dummy got score 62121
+info: player(s) Mati got top score
+ 
+Mati ha ganado
+16

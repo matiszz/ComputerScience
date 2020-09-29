@@ -1,0 +1,22 @@
+(1)    Shell 1:
+    $ mknod pipe1 p
+    $ cat > pipe1
+
+       Shell 2:
+    $ cat < pipe1
+
+(2) No, no es posible ya que tendrían que tener la misma TC, por lo tanto, uno ser el padre y otro el hijo.
+
+(3) close(0); // Cerramos stdIn, quedando libre el puerto 0.
+    dup(4);   // Duplicamos el canal Out de la pipe, y se asigna al 0.
+    close(4); // Cerramos canal creado, solo quedará uno.
+
+(4)	int createSocket (char *socketId);
+
+Después de conseguir la dirección, la función llama a socket, que crea un punto de fin para la comunicación, con unas especificaciones concretas para crear una comunicación local en dos sentidos.
+La función socket(...) devuelve un file descriptor del socket creado, que más tarde se usa para ponerle nombre al socket, con la función bind(), junto con la dirección. A continuació se queda a la espera de escuchar una conexion en el socket creado. Finalmente devuelve el file descriptor.
+
+
+	int serverConnection(int socket_fd);
+
+Esta función devuelve el descriptor del socket si ha habido éxito en la conexión, o un -1 en caso de error. Esto lo hace con la llamada a accept(...).

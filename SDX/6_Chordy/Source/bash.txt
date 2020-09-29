@@ -1,0 +1,131 @@
+erl -name chordy@127.0.0.1 -setcookie dns
+c(node3).
+N1 = node3:start(key:generate()).
+P = chordy:connect(N1).
+register(n1, N1).
+
+
+
+erl -name chordy2@127.0.0.1 -setcookie dns
+c(node3).
+N2 = node3:start(key:generate(), {n1, 'chordy@127.0.0.1'}).
+register(n2, N2).
+
+
+
+erl -name chordy3@127.0.0.1 -setcookie dns
+c(node3).
+N3 = node3:start(key:generate(), {n1, 'chordy@127.0.0.1'}).
+register(n3, N3).
+
+
+
+erl -name chordy4@127.0.0.1 -setcookie dns
+c(node3).
+N4 = node2:start(key:generate(), {n1, 'chordy@127.0.0.1'}).
+register(n4, N4).
+
+
+
+______
+
+erl -name test1@127.0.0.1 -setcookie dns
+chordy:test({n1, 'chordy@127.0.0.1'}, 10000).
+
+
+
+erl -name test2@127.0.0.1 -setcookie dns
+chordy:test({n1, 'chordy@127.0.0.1'}, 10000).
+
+
+
+erl -name test3@127.0.0.1 -setcookie dns
+chordy:test({n1, 'chordy@127.0.0.1'}, 10000).
+
+
+
+erl -name test4@127.0.0.1 -setcookie dns
+chordy:test({n1, 'chordy@127.0.0.1'}, 10000).
+
+
+______
+
+
+erl -name chordy@127.0.0.1 -setcookie dns
+c(node3).
+N1 = node3:start(1).
+P = chordy:connect(N1).
+register(n1, N1).
+
+
+
+erl -name chordy2@127.0.0.1 -setcookie dns
+c(node3).
+N2 = node3:start(2, {n1, 'chordy@127.0.0.1'}).
+register(n2, N2).
+
+
+
+erl -name chordy3@127.0.0.1 -setcookie dns
+c(node3).
+N3 = node3:start(3, {n1, 'chordy@127.0.0.1'}).
+register(n3, N3).
+
+
+
+erl -name chordy4@127.0.0.1 -setcookie dns
+c(node3).
+N4 = node3:start(4, {n1, 'chordy@127.0.0.1'}).
+register(n4, N4).
+
+
+______
+N2 ! probe.
+N2 ! stop.
+P ! {add, 3, 3}.
+________
+
+ P ! {add,0,0}.
+ P ! {add,1,1}.
+ P ! {add,2,2}.
+ 
+ N2 ! probe.
+ N1 ! probe.
+ 
+ Start node 0
+ 
+ N2 ! probe.
+ N1 ! stop.
+ N2 ! probe.
+ N0 ! stop.
+ N2 ! probe.
+
+________
+
+
+erl -name chordy@127.0.0.1 -setcookie dns
+c(node4).
+N1 = node4:start(1).
+P = chordy:connect(N1).
+register(n1, N1).
+
+
+
+erl -name chordy2@127.0.0.1 -setcookie dns
+c(node4).
+N2 = node4:start(2, {n1, 'chordy@127.0.0.1'}).
+register(n2, N2).
+
+
+
+erl -name chordy3@127.0.0.1 -setcookie dns
+c(node4).
+N0 = node4:start(0, {n1, 'chordy@127.0.0.1'}).
+register(n0, N0).
+
+
+
+erl -name chordy4@127.0.0.1 -setcookie dns
+c(node4).
+N4 = node4:start(4, {n1, 'chordy@127.0.0.1'}).
+register(n4, N4).

@@ -1,0 +1,122 @@
+Aquest document descriu com produir l'executable del programa pro2 i com fer proves amb el codi.
+
+Els fonts que us subministrem els podeu veure com un projecte de programació amb 3 mòduls: pro2.cc (amb el main), Palabra i ListaPalabras 
+amb la particularitat que la implementació del mòdul ListaPalabras està dividida en dos fitxers: ListaPalabras.cc i el solucio.cc que heu de produir.   
+
+Com generar l'executable
+========================
+
+Se suposa que treballareu en la mateixa carpeta on descomprimiu el fitxer 
+.tar que conté els tots els fitxers que acompanyen l'enunciat. 
+
+Per obtenir un executable del programa, recomanem compilar en línia de comandes mitjançant una sola instrucció:
+
+	 g++ -o pro2.exe *.cc -D_GLIBCXX_DEBUG
+
+Aquesta comanda necessita pro2.cc, Palabra.cc, ListaPalabras.cc i solucio.cc.
+
+També podeu compilar en dos passos com heu fet a les classe de laboratori. Pas 1: compilar (produir els fitxers .o) amb la comanda
+
+	 g++ -c *.cc -D_GLIBCXX_DEBUG
+
+Pas 2: enllaçar (generar l'executable amb els .o resultants del pas anterior)
+
+	 g++ -o pro2.exe *.o
+
+Aquesta comanda necessita pro2.o, Palabra.o, ListaPalabras.o i solucio.o.
+
+JP públic
+========= 
+
+Entrada: es llegeixen les operacions (codi d'operació i dades de l'operació)
+fins acabar amb un codi -5. Estudieu amb cura el fitxer pro2.cpp per tal de 
+d'entendre el significat de cada codi. Fixeu-vos que l'operació escribir
+té una especificació diferent a la habitual, però això no ha d'afectar a
+la vostra implementació de las operacions que demanem. 
+
+-1 hola
+-1 hola
+-1 adios
+-1 adios
+-1 adios
+-1 pepe
+-4
+-3 4
+-2 adios
+-2 hola
+-4
+-3 5
+-1 juan
+-1 carlos
+-1 juan
+-1 juan
+-1 juan
+-4 
+-3 4
+-2 juan
+-2 carlos
+-4
+-3 6
+-2 adios
+-4
+-3 5
+-3 4
+-5
+
+Sortida: només generen resultats les operacions -3 i -4.
+
+La lista es: 
+adios 3
+hola 2
+pepe 1
+
+La frecuencia media de longitud 4 es: 1.5
+
+La lista es: 
+adios 2
+hola 1
+pepe 1
+
+La frecuencia media de longitud 5 es: 2
+
+La lista es: 
+adios 2
+carlos 1
+hola 1
+juan 4
+pepe 1
+
+La frecuencia media de longitud 4 es: 2
+
+La lista es: 
+adios 2
+hola 1
+juan 3
+pepe 1
+
+La frecuencia media de longitud 6 es: 0
+
+La lista es: 
+adios 1
+hola 1
+juan 3
+pepe 1
+
+La frecuencia media de longitud 5 es: 1
+
+La frecuencia media de longitud 4 es: 1.66667
+
+
+Com provar l'executable
+========================
+
+Podeu capturar la sortida del vostre programa amb la comanda
+
+         ./pro2.exe <entrada.txt >la_teva_sortida.txt
+
+La nostra correcció serà equivalent a executar la comanda
+
+         diff -bB sortida_correcta.txt la_teva_sortida.txt
+
+El resultat del programa és correcte si la comanda anterior produeix 0 diferències.
+

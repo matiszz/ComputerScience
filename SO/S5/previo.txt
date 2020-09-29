@@ -1,0 +1,72 @@
+                 U atoi@@GLIBC_2.2.5
+0000000000601058 B __bss_start
+0000000000601058 b completed.7585
+0000000000601048 D __data_start
+0000000000601048 W data_start
+0000000000400580 t deregister_tm_clones
+0000000000400600 t __do_global_dtors_aux
+0000000000600e18 t __do_global_dtors_aux_fini_array_entry
+0000000000601050 D __dso_handle
+0000000000600e28 d _DYNAMIC
+0000000000601058 D _edata
+0000000000601060 B _end
+                 U exit@@GLIBC_2.2.5
+00000000004007e4 T _fini
+0000000000400620 t frame_dummy
+0000000000600e10 t __frame_dummy_init_array_entry
+0000000000400970 r __FRAME_END__
+0000000000601000 d _GLOBAL_OFFSET_TABLE_
+                 w __gmon_start__
+0000000000400820 r __GNU_EH_FRAME_HDR
+00000000004004a8 T _init
+0000000000600e18 t __init_array_end
+0000000000600e10 t __init_array_start
+00000000004007f0 R _IO_stdin_used
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+000000000060105c B j
+0000000000600e20 d __JCR_END__
+0000000000600e20 d __JCR_LIST__
+                 w _Jv_RegisterClasses
+00000000004007e0 T __libc_csu_fini
+0000000000400770 T __libc_csu_init
+                 U __libc_start_main@@GLIBC_2.2.5
+0000000000400665 T main
+00000000004005c0 t register_tm_clones
+                 U sprintf@@GLIBC_2.2.5
+0000000000400550 T _start
+                 U strlen@@GLIBC_2.2.5
+0000000000400646 T suma
+0000000000601058 D __TMC_END__
+                 U write@@GLIBC_2.2.5
+
+A = Valor absoluto, no cambia.
+B = El símbolo está en la parte no inicializada.
+C = Símbolo común, se trata diferente porqué pueden aparecer repetidas.
+D = Está en la sección de datos.
+G = Está en la sección de datos, pero para objetos pequeños.
+I = Referencia a otra variable.
+N = Variable de debbuging.
+p = La variable está en la pila.
+R = Sección de read-only.
+S = Está en la secciónd de datos no inicializada para objetos pequeños.
+T = Código.
+U = Indefinido.
+u = Variable global única.
+V = Objeto pesado.
+W = Variable pesada que no ha estado etiquetada como objeto pesado.
+- = Variable Stabs.
+? = Desconocido.
+
+Sí que se pueden saber, porqué aunque su contenido no se sabrá hasta más tarde, están en la parte no inicalizada de memoria. La función suma está en 0000000000400646, está en la parte del código.
+
+Comando utilizado para compilar estáticamente:
+# gcc -static mem1_previo.c
+
+PARA mem2_previo:
+   Heap = 143360 (dec), 23000 (hex)
+PARA mem2_previo_v2:
+   Heap = 147456 (dec), 24000 (hex)
+La segunda versión es más grande. Intuyo que es el segundo.
+
+

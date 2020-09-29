@@ -1,0 +1,16 @@
+Alarm1
+1. El pasar 5 segundos escribe "Temporizador" y acaba.
+2. No es el mismo. El mensaje recibido es "Terminado (killed)" y acaba.
+3. Lo hace con SIGALRM.
+4. No es necesario, no se ejecuta.
+
+Alarm2
+1. El comportamiento es que suma 10 segundos directamente.
+2. Sí se puede.
+
+Alarm3
+1. Ambos reciben el SIGALRM.
+
+Alarm4
+1. Cada proceso programa un SIGALRM. La recibe el hijo. El padre espera, y después se ejecuta él.
+

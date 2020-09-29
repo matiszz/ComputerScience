@@ -1,0 +1,13 @@
+(1) Aparece en /proc/[pid]/stat, entre las columnas 10 y 11.
+
+(2) $ vmstat 1 100
+    Aparece en las columna SI y SO respectivamente.
+
+(3) 
+    fib 10: 0m0.001s
+    fib 20: 0m0.001s
+    fib 30: 0m0.018s
+    fib 40: 0m1.215s
+    fib 50: 2m26.637s
+
+(4) El valor de nice es 10.

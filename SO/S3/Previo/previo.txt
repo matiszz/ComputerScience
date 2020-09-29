@@ -1,0 +1,51 @@
+-ejemplo_fork1:
+Soy el proceso 10302
+Soy el proceso 10303
+// El proceso padre muestra su PID, y luego lo hace el hijo, ya que no hemos incluido waitpid().
+
+-ejemplo_fork2:
+Antes del fork: Soy el proceso 5600
+PADRE: Soy el proceso 5600
+Los DOS: Soy el proceso 5600
+HIJO: Soy el proceso 5601
+Los DOS: Soy el proceso 5601
+// Primero muestra el padre, luego los dos, luego el hijo y de nuevo los dos, ya que igual que en el ejemplo 1, al no tener waitpid() primero ejecuta el código el padre, y luego el hijo. Que combinado con las opciones del switch para detectar errores, imprimen este texto.
+
+-ejemplo_fork3:
+Antes del fork: Soy el proceso 5622
+PADRE: Soy el proceso 5622
+Solo lo ejecuta el padre: Soy el proceso 5622
+HIJO: Soy el proceso 5623
+// Lo mismo que en el 1 y el 2, pero con la diferencia que el código del hijo contiene un exit(0).
+
+-ejemplo_fork4:
+Antes del fork: Soy el proceso 5661
+PADRE: Soy el proceso 5661
+Solo lo ejecuta el padre: Soy el proceso 5661
+HIJO: Soy el proceso 5662
+HIJO acaba: Soy el proceso 5662
+// El orden es: Padre, Padre, Hijo, Hijo. Una vez modificado, primero ejecuta el padre, luego el hijo y finalmente el padre.
+
+-ejemplo_fork5:
+Antes del fork: Soy el proceso 5745
+PADRE: Soy el proceso 5745
+HIJO: Soy el proceso 5746
+HIJO:La variable_global vale A y la local a
+PADRE:La variable_global vale A y la local a
+Solo lo ejecuta el padre: Soy el proceso 5745
+// Al tener el waitpid(-1,NULL,0), el padre espera a que el hijo ejecute antes de acabar su ejecución.
+
+-ejemplo_fork6:
+// No, no podemos asegurar que al ejecutar varias veces el programa vaya a ser el mismo.
+
+-ejemplo_fork7:
+// No compila porque variable_local estaba declarada dentro de la función Main(), y era la función Escribe_variables() la que se encarga de escribirla. No tiene que ver con la creación de procesos. Para que compile, hay que declarla a niver global.
+
+-ejemplo_exec1:
+// El programa ejecuta "ls -l". Aparece 1 mensaje con el pid. Se debe a que el código de "ls -l" hace que finalice el programa, puesto que no hay ningún waitpid(...).
+
+-ejemplo_exec2:
+// El programa muestra 3 mensajes con el pid de dos procesos diferentes.
+
+
+--// He utilizado el man de "diff" para comparar dos salidas del ejemplo_fork6 y asegurarme que eran diferentes.

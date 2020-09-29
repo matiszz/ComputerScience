@@ -1,0 +1,6 @@
+1) con el comando $ df
+tengo montados udev, tmpfs, sda5, sda1, sdb2.
+
+2) el inodo son iguales. sl_pr no se ha creado porqué dice que no es un direcotrio.
+No puedo ver diferencia ya que no se ha podido crear sl_pr
+Siguen igual después de eliminar el .txt.

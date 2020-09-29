@@ -1,0 +1,48 @@
+Aquest document descriu com produir l'executable del programa pro2 i com fer proves amb el codi.
+
+Els fonts que us subministrem els podeu veure com un projecte de programació amb 3 mòduls: pro2.cc (amb el main), Estudiant i Cjt_estudiants 
+amb la particularitat que la implementació del mòdul Cjt_estudiants esta dividida en dos fitxers: Cjt_estudiants.cc i el solucio.cc que heu de produir.   
+
+Com generar l'executable
+========================
+
+Se suposa que treballareu en la mateixa carpeta on descomprimiu el fitxer 
+.tar que conté els tots els fitxers que acompanyen l'enunciat. 
+
+Per obtenir un executable del programa, podeu compilar en línia de comandes mitjançant una sola instrucció:
+
+	 g++ -o pro2.exe *.cc -D_GLIBCXX_DEBUG -ansi -O2 -Wall -Wextra -Werror -Wno-uninitialized -Wno-sign-compare -std=c++0x
+
+Aquesta comanda necessita pro2.cc, Estudiant.cc, Cjt_estudiants.cc i solucio.cc.
+
+També podeu compilar en dos passos com heu fet a les classe de laboratori. Pas 1: compilar (produir els fitxers .o) amb la comanda
+
+	 g++ -c *.cc -D_GLIBCXX_DEBUG -ansi -O2 -Wall -Wextra -Werror -Wno-uninitialized -Wno-sign-compare -std=c++0x
+	
+Pas 2: enllaçar (generar l'executable amb els .o resultants del pas anterior)
+
+	 g++ -o pro2.exe *.o
+
+Aquesta comanda necessita pro2.o, Estudiant.o, Cjt_estudiants.o i solucio.o.
+
+JP públic
+========= 
+
+Entrada: primer es llegeix el conjunt inicial i després es llegeixen les operacions
+(codi d'operació i dades de l'operació) fins acabar amb un codi -5.
+Estudieu amb cura el fitxer pro2.cc per a deduir el significat de cada codi. 
+Vegeu el fitxers entrada.txt (joc de proves públic) i sortida_correcta.txt (sortida esperada del joc de proves públic). 
+
+Com provar l'executable
+========================
+
+Podeu capturar la sortida del vostre programa amb la comanda
+
+         ./pro2.exe <entrada.txt >la_teva_sortida.txt
+
+La nostra correcció serà equivalent a executar la comanda
+
+         diff -bB sortida_correcta.txt la_teva_sortida.txt
+
+El resultat del programa és correcte si la comanda anterior produeix 0 diferències.
+
