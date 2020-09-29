@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "qopenglwidget": "cpp",
+        "qopenglshader": "cpp",
+        "qopenglshaderprogram": "cpp",
+        "qkeyevent": "cpp",
+        "qopenglfunctions_3_3_core": "cpp",
+        "cmath": "cpp"
+    }
+}

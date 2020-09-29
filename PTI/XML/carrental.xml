@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="carrental.xsd">    <rental>
+        <make>Volvo</make>
+        <model>45f</model>
+        <nofdays>3</nofdays>
+        <nofunits>1</nofunits>
+        <discount>4</discount>
+    </rental>
+    <rental>
+        <make>Mercedes</make>
+        <model>Clase C</model>
+        <nofdays>4</nofdays>
+        <nofunits>2</nofunits>
+        <discount>0</discount>
+    </rental>
+</carrental>

@@ -1,0 +1,30 @@
+ToDo:
+
+    [x] Implementar createServerSocket en socketMinga.c
+    [x] Implementar acceptNewConnections en socketMinga.c
+
+    SERVIDOR CONCURRENTE ILIMITADO:
+        [x] Implementar funcion doServiceFork (crea un nuevo proceso que ejecuta doService y acaba la
+            ejecución). Acepta todas las peticiones.
+        [x] Llamar a doServiceFork cada vez que el servidor acepta una conexion (en cambio de doService)
+
+    SERVIDOR CONCURRENTE LIMITADO:
+        [x] Modificar doServiceFork para que no sea ilimitado, sino que cuando experimente deterioro del
+            rendimiento se bloquee hasta que un hijo muera.
+
+    SERVIDOR CONCURRENTE USANDO THREADS:
+        [x] En cambio de crear procesos, creamos pthreads. Se puede trabajar sobre el CONCURRENTE ILIMITADO.
+        [x] Linkar con libreria de threads
+
+Métricas
+    - Media de t_exe de cada cliente.
+    - Nº de clientes servidos exitosamente por unidad de tiempo.
+
+Límites:
+    Mostrar límites de mi usuario:
+        ulimit -a
+
+    Modificar límites de mi usuario:
+        en /etc/security/limits.conf, agregar:
+        @alumne hard nproc MaxNumProcs
+        @alumne hard nofiles MaxOpenFiles
